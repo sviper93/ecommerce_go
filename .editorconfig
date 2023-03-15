@@ -1,0 +1,17 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+charset = utf-8
+insert_final_newline = true
+trim_trailing_whitespace = true # se eliminan los espacios al final del código
+
+# Tab indentation (no size specified)
+[*.{go, sql}] # Todos los archivos que terminan en ".Go" y ."sql" van a utilizar espaciado de 8 (debería
+# ser 8 porque porque así lo recomienda Go, pero para que se visualice bien el curso, se deja en 4)
+indent_size = 4
+indent_style = tab
